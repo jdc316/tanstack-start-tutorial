@@ -51,8 +51,10 @@ export function AppSidebar({ user }: NavUserProps) {
                   <BookmarkIcon className="size-4" />
                 </div>
                 <div className="grid flex-1 text-left text-sm leading-tight">
-                  <span className="font-medium">Recall</span>
-                  <span className="text-xs">Your AI Knowledge Base</span>
+                  <span className="truncate font-medium">Recall</span>
+                  <span className="truncate text-xs">
+                    Your AI Knowledge Base
+                  </span>
                 </div>
               </Link>
             </SidebarMenuButton>
